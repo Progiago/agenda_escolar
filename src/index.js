@@ -1,19 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.css'; 
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
-import { BrowserRouter } from 'react-router-dom';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <Home />
-  </BrowserRouter>
+  <React.StrictMode>
+    <Login />
+  </React.StrictMode>
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

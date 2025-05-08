@@ -5,7 +5,9 @@ export default function Login(){
     return(
         <>
             <Navbar/>
-            <LoginCards/>
+            <div className="containerlogin">
+                <LoginCards/>
+            </div>
         </>
     )
-}
+}   

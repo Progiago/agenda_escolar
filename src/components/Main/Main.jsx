@@ -1,8 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
 import Home from '../pages/Home/Home';
-import Login from '../pages/Login/Login'
+import Login from '../pages/Login/Login';
 
 const Main = () => {
   return (
@@ -12,3 +11,6 @@ const Main = () => {
     </Switch>
   );
 }
+
+
+export default Main
