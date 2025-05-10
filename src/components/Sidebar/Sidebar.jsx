@@ -4,28 +4,28 @@ import { PiDesk, PiStudentBold } from "react-icons/pi";
 import { GiTeacher } from "react-icons/gi";
 const Sidebar = () => {
     return(
-        <aside className="nav-container">
-            <nav className="nav">
-                <div className="container-list">
-                    <FaHome />
+        <aside className="side-container">
+            <nav className="sidenav-container">
+                <div className="icon-container">
+                    <FaHome className="icon"/>
                     <a href="" className="link">Home</a>
-                    <div className="sep"></div>
                 </div>
-                <div className="container-list">
-                    <PiDesk />
+                <div className="sep"></div>
+                <div className="icon-container">
+                    <PiDesk className="icon"/>
                     <a href="" className="link">Turmas</a>
-                    <div className="sep"></div>
                 </div>
-                <div className="container-list">
-                    <PiStudentBold />
-                    <a href="" className="link">Alunos</a>
-                    <div className="sep"></div>
+                <div className="sep"></div>
+                <div className="icon-container">
+                    <PiStudentBold className="icon"/>
+                    <a href="" className="link">Aluno</a>
                 </div>
-                <div className="container-list">
-                    <GiTeacher />
-                    <a href="" className="link">Professores</a>
-                    <div className="sep"></div>
+                <div className="sep"></div>
+                <div className="icon-container">
+                    <GiTeacher className="icon"/>
+                    <a href="" className="link">professor</a>
                 </div>
+                <div className="sep"></div>
             </nav>
         </aside>
     )
