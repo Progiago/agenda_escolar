@@ -8,10 +8,11 @@ const Navbar = () =>{
             <h1 className="logo">
                 <a className="link" href="/">logo</a>
             </h1>
-            <button className="button">
-                <a href=""><img src={avatar} alt="Logo" width={"30px"} height={"30px"}/>
-                <img src={lista} alt="Lista" width={"30px"} height={"30px"}/></a>
-            </button>
+            <div className="button">
+                <a href=""><img src={avatar} alt="Logo" width={"15px"} height={"15px"}/>
+                <img src={lista} alt="Lista" width={"15px"} height={"15px"}/>
+                </a>
+            </div>
         </nav>
     )
 }

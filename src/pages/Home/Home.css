@@ -1,0 +1,11 @@
+.aside-n{
+    display: flex;
+    height: 629px;
+    width: 400px;
+    background-color: #ffff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.288);
+    justify-content: center;
+    list-style: none;
+    list-style-type: none;
+}
