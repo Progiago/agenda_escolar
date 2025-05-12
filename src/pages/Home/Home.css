@@ -1,7 +1,7 @@
 
 .aside-navigation{
     display: flex;
-    height: 629px;
+    height: 59.8rem;
     width: 400px;
     background-color: #ffff;
     border-radius: 15px;
@@ -13,12 +13,46 @@
 .main-container{
     display: flex;
     flex-flow: row wrap;
-    gap: 50px;
+    gap: 60px;
 
 }
 .calendar-container{
+    display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
     width: auto;
+}
+.container-select{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-flow: column wrap;
+}
+.select{
+    display: flex;
+    
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    border-style: none;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  30px 30px 59px #bebebe,
+             -30px -30px 59px #ffffff;
+
+
+}
+.select option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.title{
+    display: flex;
+    font-size: 3rem;
+    flex-flow: row wrap;
 }
