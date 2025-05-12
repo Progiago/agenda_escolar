@@ -20,7 +20,7 @@ const Sidebar = () => {
                 <div className="sep"></div>
                 <div className="icon-container">
                     <PiStudentBold className="icon"/>
-                    <Link to={"/Alunos"} className="link">Aluno</Link>
+                    <Link to={"/Alunos"} className="link">Alunos</Link>
                 </div>
                 <div className="sep"></div>
                 <div className="icon-container">

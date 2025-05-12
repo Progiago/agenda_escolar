@@ -1,7 +1,7 @@
 import "./LoginCards.css"
 
 
-export default function(){
+export default function LoginCards(){
     return(
         <section className="container">
             <div className="cardlogin">
