@@ -9,6 +9,7 @@ const Sidebar = () => {
                 <div className="icon-container">
                     <FaHome className="icon"/>
                     <a href="" className="link">Home</a>
+               
                 </div>
                 <div className="sep"></div>
                 <div className="icon-container">

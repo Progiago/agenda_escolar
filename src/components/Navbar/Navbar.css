@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    box-sizing: border-box;
 }
 
 
